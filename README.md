@@ -1,5 +1,7 @@
-This is a civicrm extension to export directly into an excel format.
+This is a civicrm extension to export directly into an excel format with all fields in capitalization for mailing labels.
 -------------
+
+DO NOT use this code along with main master branch.
 
 The goal is to free you from the csv->excel hell. The later has been proven guilty of the following charges:
 - stubornly ignoring that unicode exists since 1992. 
