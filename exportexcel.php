@@ -34,7 +34,7 @@ EOD;
     $colNo = 0;
     echo "\n<tr>";
     foreach ($row as $j => $value) {
-      echo "<td>" . htmlentities($value, ENT_COMPAT, 'UTF-8') . "</td>";
+      echo "<td>" . htmlentities(strtoupper($value), ENT_COMPAT, 'UTF-8') . "</td>";
     }
     echo "</tr>";
   }
